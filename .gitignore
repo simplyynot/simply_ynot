@@ -1,2 +1,8 @@
-.sass-cache/
-*.css.map
+**/build/**
+**/dist/**
+**/node_modules/**
+**/i/**
+**/docs/**
+**/.map.css
+**/*.sass-cache
+**/*.zip

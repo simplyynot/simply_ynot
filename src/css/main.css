@@ -1,0 +1,140 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  height: 100%;
+  width: 100%; }
+
+h1 {
+  font-size: 2.074em; }
+
+h2 {
+  font-size: 1.728em; }
+
+h3 {
+  font-size: 1.44em; }
+
+h4 {
+  font-size: 1.2em; }
+
+h5 {
+  font-size: 1em; }
+
+p {
+  font-size: 1em; }
+
+div.parallax-container {
+  background: #333;
+  height: 900px;
+  overflow: hidden;
+  position: relative;
+  width: 100%; }
+
+div.parallax-container div.parallax {
+  position: absolute;
+  width: 2500px; }
+
+.background {
+  background: url(../img/background.jpg) no-repeat;
+  background-size: 100% 120%;
+  background-position: 100% -150px; }
+
+.hand {
+  bottom: -100px;
+  height: 100%;
+  left: -300px;
+  position: absolute;
+  width: 1089px;
+  background-size: 100% 100%;
+  background: url(../img/hand.png) bottom left no-repeat transparent; }
+  .hand .device-content {
+    position: absolute;
+    top: 62px;
+    height: 423px;
+    left: 729px;
+    width: 242px; }
+    .hand .device-content #search input {
+      background: transparent;
+      border: 1px solid #fff;
+      color: #fff;
+      height: 50px;
+      position: absolute;
+      top: 105px;
+      width: 235px;
+      left: 0;
+      padding: 5px;
+      margin: 5px; }
+    .hand .device-content ul#icons {
+      height: 400px;
+      left: 0;
+      padding: 0;
+      position: absolute;
+      top: 150px;
+      width: 242px; }
+      .hand .device-content ul#icons li {
+        float: left;
+        height: 72px;
+        display: inline-block;
+        list-style: none;
+        list-style-type: none;
+        margin: 0 20px 10px 0;
+        width: 59px; }
+        .hand .device-content ul#icons li figure {
+          background-image: url(../img/app-sprite.png);
+          background-repeat: no-repeat;
+          display: block;
+          height: 57px;
+          margin: 0 0 0 10px;
+          padding: 0;
+          width: 59px; }
+        .hand .device-content ul#icons li h5 {
+          font-size: 10px;
+          margin: 0 auto;
+          padding-left: 15px;
+          text-align: center;
+          vertical-align: baseline; }
+
+li#one figure {
+  background-position: 8px -474px; }
+
+li#two figure {
+  background-position: -58px -240px; }
+
+li#three figure {
+  background-position: 2px -118px; }
+
+li#four figure {
+  background-position: -55px 0px; }
+
+li#five figure {
+  background-position: -57px -357px; }
+
+li#six figure {
+  background-position: 3px -239px; }
+
+li#seven figure {
+  background-position: 3px 0px; }
+
+li#eight figure {
+  background-position: -57px -122px; }
+
+li#nine figure {
+  background-position: 4px -353px; }
+
+li#one h5 {
+  color: #000;
+  font-size: 12px; }
+
+.parallax2 {
+  color: #999;
+  font-size: 100px;
+  line-height: 320%; }
+
+.parallax3 {
+  color: #fff;
+  font-size: 50px;
+  line-height: 760%; }

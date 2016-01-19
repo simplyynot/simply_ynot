@@ -1,0 +1,9 @@
+#tags .element h3 {
+	color: #000;
+}
+#tag .element h3 a {
+	color: yellow;
+}
+#tag .element h3 a p {
+	color: #000;
+}
